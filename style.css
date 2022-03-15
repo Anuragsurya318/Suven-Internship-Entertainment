@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+}
+
+.navbar-custom {
+    background: linear-gradient(to right, orange, white, green);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(-45deg, rgb(223, 245, 253), rgb(255, 240, 107), rgb(206, 255, 250), rgb(218, 165, 32)) 0% 0% / 400% 400%;
+    animation: Gradient 20s ease 0s infinite normal none running;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-around;
+    border: none;
+    border-color: black;
+    /* color: white; */
+}
+
+.card-body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.searchbar-custom {
+    background-color: black;
+    padding: 20px;
+    /* border: 10px solid black; */
+    /* position: relative; */
+    /* top: 6px; */
+    /* border-radius: 30px; */
+}
+
+.searchbar-customs {
+    border: 10px solid black;
+    border-radius: 15px;
+}
+
+.footer {
+    background: linear-gradient(to right, orange, white, green);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(-45deg, rgb(223, 245, 253), rgb(255, 240, 107), rgb(206, 255, 250), rgb(218, 165, 32)) 0% 0% / 400% 400%;
+    animation: Gradient 20s ease 0s infinite normal none running;
+    font-size: smaller;
+}
+
+.carausol {
+    position: relative;
+    top: 60px;
+}
